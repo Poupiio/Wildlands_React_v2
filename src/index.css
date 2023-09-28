@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Bree Serif";
+  src: url("assets/fonts/Bree\ Serif/BreeSerif-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +10,11 @@
   list-style: none;
   text-decoration: none;
   background: #000;
+}
+
+h1 {
+  color: #fff;
+  margin: 30px 0;
+  text-align: center;
+  font-family: "Bree Serif", serif;
 }

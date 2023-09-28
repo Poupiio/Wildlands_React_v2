@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-const Contact = () => {
+const Login = () => {
     return (
         <>
             <Header />
-            <h1>Nous contacter</h1>
+            <h1>Se connecter</h1>
+            <Footer />
         </>
     );
 };
 
-export default Contact;
+export default Login;

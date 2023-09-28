@@ -1,0 +1,72 @@
+:root {
+    --menu: #F7D214;
+    --hover: #72885a;
+    --white: #fff;
+}
+
+@font-face {
+    font-family: "Amatic SC";
+    src: url("../assets/fonts/Amatic\ SC/AmaticSC-Regular.ttf");
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 0 auto;
+    height: 15vh;
+    font-family: "Amatic SC", cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 1px -1px 8px #F7D214;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li a, footer ul li i {
+    padding: 0 1rem;
+    color: var(--menu);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer ul li:not(:last-child) {
+    padding-right: 50px;
+}
+
+footer ul li a {
+    position: relative;
+    color: var(--menu);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+  
+footer ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Ajustez cette valeur pour définir la distance entre le texte et la ligne */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #94B076;
+    transition: width 0.5s ease-in-out;
+}
+  
+footer ul li a:hover::after {
+    width: 100%;
+}
+
+footer p {
+    color: var(--white);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+}
