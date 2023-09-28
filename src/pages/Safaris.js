@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Safaris = () => {
     return (
-        <h1>Les safaris</h1>
+        <>
+            <Header />
+            <h1>Les safaris</h1>
+        </>
     );
 };
 

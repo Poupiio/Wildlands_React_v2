@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Contact = () => {
     return (
-        <h1>Nous contacter</h1>
+        <>
+            <Header />
+            <h1>Nous contacter</h1>
+        </>
     );
 };
 

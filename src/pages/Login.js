@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Login = () => {
     return (
-        <h1>Se connecter</h1>
+        <>
+            <Header />
+            <h1>Se connecter</h1>
+        </>
     );
 };
 

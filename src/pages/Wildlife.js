@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Wildlife = () => {
     return (
-        <h1>La faune du parc</h1>
+        <>
+            <Header />
+            <h1>La faune du parc</h1>
+        </>
     );
 };
 

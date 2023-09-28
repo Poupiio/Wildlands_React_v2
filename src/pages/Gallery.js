@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Gallery = () => {
     return (
-        <h1>Galerie</h1>
+        <>
+            <Header />
+            <h1>Galerie</h1>
+        </>
     );
 };
 
